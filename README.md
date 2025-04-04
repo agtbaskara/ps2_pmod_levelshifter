@@ -44,4 +44,4 @@ Connect the Pmod to your board, and connect the 5V and GND cable to power source
 - Logic Level Converter (BOB-12009) Footprint: https://www.snapeda.com/parts/BOB-12009/SparkFun%20Electronics/view-part/
 - PS/2 Connector (Mini-DIN 6 Pins) Footprint: https://www.reniemarquet.com/bibliotecas_en.html
 - Digilent Pmod PS2: https://digilent.com/reference/pmod/pmodps2/start
-- Akizuki Denshi XC9306 5V Step-up Modules: https://akizukidenshi.com/catalog/g/g115775/
+- Akizuki Denshi XC9306 5V Step-up Modules: https://cba.sakura.ne.jp/kit01/kit_h40.htm
