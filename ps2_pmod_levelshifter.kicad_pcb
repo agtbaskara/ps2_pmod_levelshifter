@@ -97,7 +97,7 @@
 		(at 158.496 90.424 90)
 		(tags "MINI DIN")
 		(property "Reference" "J1"
-			(at 0 -3.556 90)
+			(at 0 -6.604 90)
 			(layer "F.SilkS")
 			(uuid "dbf51fcb-a7b6-4cbe-8dbd-3b595f12a987")
 			(effects
@@ -587,7 +587,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0 -2.33 0)
+			(at -0.254 14.986 0)
 			(layer "F.SilkS")
 			(uuid "d899851d-1168-467b-bbb1-eca71de19612")
 			(effects
@@ -1225,20 +1225,9 @@
 		(layer "Edge.Cuts")
 		(uuid "11c718e1-234d-4cbb-9017-0855e3e2fb6c")
 	)
-	(gr_arc
-		(start 165.862 101.092)
-		(mid 165.415631 102.169631)
-		(end 164.338 102.616)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "1b2f939d-1080-487d-9b74-a9b0a9f554eb")
-	)
 	(gr_line
 		(start 165.862 83.058)
-		(end 165.862001 101.092)
+		(end 165.862001 100.838)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -1246,9 +1235,20 @@
 		(layer "Edge.Cuts")
 		(uuid "22e13a79-aee0-4ac7-99c9-ecdb7adf90f4")
 	)
+	(gr_arc
+		(start 165.862 100.838)
+		(mid 165.415631 101.915631)
+		(end 164.338 102.362)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "31a55c86-ff13-4817-b5cd-7fcf3bbd99dc")
+	)
 	(gr_line
-		(start 127.762 102.616001)
-		(end 164.338 102.616)
+		(start 127.762 102.362)
+		(end 164.338 102.361999)
 		(stroke
 			(width 0.2)
 			(type solid)
@@ -1279,18 +1279,18 @@
 		(uuid "668564a4-0496-4b7d-965a-6179d2596d83")
 	)
 	(gr_arc
-		(start 127.762 102.616)
-		(mid 126.684369 102.169631)
-		(end 126.238 101.092)
+		(start 127.762 102.362)
+		(mid 126.684369 101.915631)
+		(end 126.238 100.838)
 		(stroke
 			(width 0.2)
 			(type solid)
 		)
 		(layer "Edge.Cuts")
-		(uuid "841c1220-1694-41a8-bbff-6f763472b6d1")
+		(uuid "78d21691-97fe-4076-8853-88936b027541")
 	)
 	(gr_line
-		(start 126.238 101.092)
+		(start 126.238 100.838)
 		(end 126.238 83.058)
 		(stroke
 			(width 0.2)
@@ -1303,6 +1303,19 @@
 		(at 131.826 90.678 0)
 		(layer "F.SilkS")
 		(uuid "1cb66060-c4eb-46de-adc1-374892a27581")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "2025"
+		(at 149.098 82.804 0)
+		(layer "F.SilkS")
+		(uuid "1cba23d3-e7a2-4c06-a23a-8956a36a6d51")
 		(effects
 			(font
 				(size 1.25 1.25)
@@ -1338,6 +1351,19 @@
 			(justify left)
 		)
 	)
+	(gr_text "agtbaskara.com"
+		(at 132.588 82.804 0)
+		(layer "F.SilkS")
+		(uuid "596fdec6-eeba-4b78-b395-fe5797a8e015")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
 	(gr_text "LV"
 		(at 140.462 93.218 90)
 		(layer "F.SilkS")
@@ -1352,7 +1378,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 160.02 101.346 0)
+		(at 160.02 101.092 0)
 		(layer "F.SilkS")
 		(uuid "80b48fa9-8f8b-4a7b-beb7-e83b4a941d57")
 		(effects
@@ -1378,9 +1404,22 @@
 		)
 	)
 	(gr_text "GND"
-		(at 147.066 101.346 0)
+		(at 147.066 101.092 0)
 		(layer "F.SilkS")
 		(uuid "9ad26197-81a0-49c8-ae6a-ba025fa1a374")
+		(effects
+			(font
+				(size 1.25 1.25)
+				(thickness 0.25)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(gr_text "PS/2 PMOD"
+		(at 133.604 101.092 0)
+		(layer "F.SilkS")
+		(uuid "9d39f668-976b-4242-b67a-98609aa3ce76")
 		(effects
 			(font
 				(size 1.25 1.25)
